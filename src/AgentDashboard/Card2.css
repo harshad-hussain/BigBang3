@@ -1,0 +1,113 @@
+.agencycard{
+  display: relative;
+
+}
+
+.card {
+  width: 190px;
+  height: 400px;
+  padding: .8em;
+  background: #f5f5f5;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-top: 40%;
+  left: 30%;
+  margin-right: 4rem;
+ }
+ 
+ .card-img {
+  background-color: #ffcaa6;
+  height: 20%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease;
+ }
+ 
+ .card-info {
+  padding-top: 30%;
+ }
+ 
+ svg {
+  width: 20px;
+  height: 20px;
+ }
+ 
+ .card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+ }
+ 
+
+ .text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+ }
+ 
+ .text-body {
+  font-size: .9em;
+  padding-bottom: 10px;
+ }
+ 
+
+ .card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+ }
+ 
+ .card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #ffcaa6;
+ }
+
+ .card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row */
+  gap: 1rem; /* Add spacing between cards */
+}
+
+/* Add other CSS styles for the cards and their children as needed */
+
+ 
+ /*  */
+ .action-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+/* Hover styles */
+.edit-button:hover,
+.delete-button:hover {
+  opacity: 0.8;
+}
+
+/* Active styles */
+.edit-button:active,
+.delete-button:active {
+  opacity: 0.6;
+}

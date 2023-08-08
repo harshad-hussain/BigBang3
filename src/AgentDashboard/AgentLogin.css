@@ -1,0 +1,121 @@
+/* Adminlogin.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.log-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: url('../../src/images/t4.jpg'); Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.log-wrapper {
+  width: 100%;
+  max-width: 440px;
+  background: rgba(255, 255, 255, 0.8); /* Adjust the alpha value (0.8) to control the transparency */
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.log-title {
+  height: 90px;
+  background: #16a085;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-wrapper form {
+  padding: 30px 25px 25px 25px;
+}
+
+.log-row {
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.log-row input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #fff; /* Set the background color of the text boxes to white */
+}
+
+.log-row input:focus {
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+.log-row input::placeholder {
+  color: #999;
+}
+
+.log-row i {
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-pass {
+  margin: -8px 0 20px 0;
+}
+
+.log-pass a {
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.log-pass a:hover {
+  text-decoration: underline;
+}
+
+.log-row.log-button input {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+}
+
+.log-row.log-button input:hover {
+  background: #12876f;
+}
+
+.log-signup-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.log-signup-link a {
+  color: #16a085;
+  text-decoration: none;
+}
+
+.log-signup-link a:hover {
+  text-decoration: underline;
+}

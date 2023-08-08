@@ -1,0 +1,39 @@
+.searchbar-tour-search {
+    background: var(--bright-navy-blue);
+    padding-block: var(--section-padding);
+  }
+  
+  .searchbar-tour-search-form .searchbar-input-label {
+    color: blue;
+    font-size: var(--fs-4);
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .searchbar-tour-search-form .searchbar-input-field {
+    background: var(--white);
+    padding: 10px 15px;
+    font-size: var(--fs-5);
+    border-radius: 50px;
+  }
+  
+  .searchbar-tour-search-form .searchbar-input-field::placeholder {
+    color: var(--spanish-gray);
+  }
+  
+  .searchbar-tour-search-form .searchbar-input-field::-webkit-datetime-edit {
+    color: var(--spanish-gray);
+    text-transform: uppercase;
+  }
+  
+  .searchbar-tour-search-form .searchbar-input-wrapper {
+    margin-bottom: 15px;
+  }
+  
+  .searchbar-tour-search .searchbar-btn {
+    width: 100%;
+    --border-width: 1px;
+    font-weight: var(--fw-600);
+    margin-top: 35px;
+  }
+  
